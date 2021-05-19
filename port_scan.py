@@ -56,4 +56,5 @@ if __name__ == '__main__':
     parser.add_option('-p','--port',dest='port',default='80',type='string',help='scann port')#添加端口参数-p
     parser.add_option('-t','--thread',dest='threadNum',default='100',type='int',help='scann thread number')#添加端口参数-p
     (options,args) = parser.parse_args()
-    StartScan(options.targetIP, options.port, options.threadNum)   
+    StartScan(options.targetIP, options.port, options.threadNum)
+    #开始扫描   
