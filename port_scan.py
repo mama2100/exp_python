@@ -57,4 +57,4 @@ if __name__ == '__main__':
     parser.add_option('-t','--thread',dest='threadNum',default='100',type='int',help='scann thread number')#添加端口参数-p
     (options,args) = parser.parse_args()
     StartScan(options.targetIP, options.port, options.threadNum)
-    #开始扫描   
+    #开始扫描   nihao
