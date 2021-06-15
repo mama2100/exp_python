@@ -1,0 +1,4 @@
+-- SELECT persons.LastName,persons.FirstName,orders.orderno from 
+-- persons inner join orders
+-- on persons.id_p=orders.id_p
+-- order by persons.LastName 

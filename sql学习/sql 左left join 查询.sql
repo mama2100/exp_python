@@ -1,0 +1,10 @@
+-- SELECT
+-- 	persons.LastName,
+-- 	persons.FirstName,
+-- 	orders.OrderNo 
+-- FROM
+-- 	persons
+-- 	LEFT JOIN orders ON persons.Id_p = orders.Id_P 
+-- ORDER BY
+-- 	persons.LastName
+-- sql 左left join 查询

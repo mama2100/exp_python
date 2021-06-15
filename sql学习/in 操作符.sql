@@ -1,0 +1,1 @@
+-- SELECT * FROM persons WHERE LastName in ('Adams','Carter');

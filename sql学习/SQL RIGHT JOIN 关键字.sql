@@ -1,0 +1,11 @@
+-- SELECT
+-- 	persons.LastName,
+-- 	persons.FirstName,
+-- 	orders.OrderNo 
+-- FROM
+-- 	persons
+-- 	RIGHT JOIN orders ON persons.Id_p = orders.Id_P 
+-- ORDER BY
+-- 	persons.LastName 
+-- SQL RIGHT JOIN 关键字
+-- RIGHT JOIN 关键字会右表 (table_name2) 那里返回所有的行，即使在左表 (table_name1) 中没有匹配的行。

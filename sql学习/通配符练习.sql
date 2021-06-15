@@ -1,0 +1,5 @@
+-- SELECT * FROM `persons` WHERE City like '%lond%';
+-- SELECT * FROM persons WHERE FirstName LIKE '_eorge';
+-- SELECT * FROM persons WHERE LastName LIKE 'C_r_er';
+-- SELECT * FROM persons WHERE City regexp '^[ALN]';
+-- SELECT * FROM persons WHERE City REGEXP '^[!ALN]'

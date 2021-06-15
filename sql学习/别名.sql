@@ -1,0 +1,1 @@
+-- SELECT po.Orderid,p.LastName,p.FirstName FROM persons as p,product_orders as po WHERE p.LastName='adams' and p.FirstName='john' alias别名查询
