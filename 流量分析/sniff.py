@@ -29,7 +29,7 @@ if __name__ == '__main__':
     parser.add_option('-o','--output',dest='fileName',default="ms08067.pcap",type="string",help='save filename [default=ms08067.pcap]')
     (options,args) = parser.parse_args()
     defFilter = "dst "+ options.hostIP
-    packets = sniff(filter=defFilter,prn=PackCallBack,count=options.packetCount)
+    packets = sniff(filter=defFilter,prn=PackCallBack,count=options.packetCount)#第一个参数代表过滤器，第二个是包的回调函数，第三个是包的数量
     # 保存输出文件
     wrpcap(options.fileName,packets)
     
